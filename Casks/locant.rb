@@ -1,6 +1,9 @@
+# specs/v0.9.md R69. The copy that ships lives in the tap, Malik1942/homebrew-locant, as
+# Casks/locant.rb; scripts/cask.sh fills version and sha256 here after scripts/release.sh, and the
+# file is copied over. Install: brew install Malik1942/locant/locant
 cask "locant" do
-  version "1.0.1"
-  sha256 "1fb553443ebe97e36bd43e7c050b93ba8269989ca555614a039bfe70a0bfe28a"
+  version "1.1.0"
+  sha256 "01192dc6b307823a6ff186b94e3a607379a5c36975f8dde684e584b9285f598f"
 
   url "https://github.com/Malik1942/locant/releases/download/v#{version}/Locant-#{version}.dmg"
   name "Locant"
